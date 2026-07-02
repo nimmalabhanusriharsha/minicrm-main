@@ -11,7 +11,7 @@ import { defineConfig } from "@lovable.dev/vite-tanstack-config";
 export default defineConfig({
   
   tanstackStart: {
-    base:'/minicrm-main',
+    base:'/minicrm-main/',
     server: { entry: "server" },
   },
 });
